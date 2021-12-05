@@ -1,8 +1,7 @@
 import styles from './Hero.module.css';
-import './Hero.module.css';
+import { Button } from '../Button/Button';
 
 import user from '../../assets/images/user.png';
-import { Button } from '../Button/Button';
 
 export const Hero = () => {
     return (
@@ -37,7 +36,7 @@ export const Hero = () => {
                     text="Descargar currículum"
                     type="primary"
                     // TODO: Agregar url del CV
-                    href={'facebook.com'}
+                    href="../../assets/CV-Oscar_Aguilar.pdf"
                     download={true}
                 />
             </div>
