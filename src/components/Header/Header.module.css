@@ -1,0 +1,86 @@
+.header {
+    background-color: var(--black);
+    padding-inline-end: 1.5rem;
+    padding-inline-start: 1.5rem;
+    color: var(--white);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: var(--white);
+    font: var(--button);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav {
+    position: fixed;
+    inline-size: 70%;
+    left: 15%;
+    right: 15%;
+    bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--white);
+    border-radius: 0.7rem;
+    padding-block: 1.25rem;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    box-shadow: 2px 2px 5px 2px rgba(255, 255, 255, 0.2);
+}
+
+.nav.is-open {
+    opacity: 1;
+}
+
+.nav a {
+    color: var(--black);
+}
+
+.menuButton {
+    position: fixed;
+    right: 1.5rem;
+    bottom: 2rem;
+    background-color: var(--primary);
+    border-radius: 50%;
+    inline-size: 4rem;
+    block-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px 2px rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        padding-inline-end: 9rem;
+        padding-inline-start: 9rem;
+        grid-template-columns: 75% 1fr;
+        align-items: center;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3rem;
+        background-color: var(--black);
+        opacity: 1;
+        position: static;
+        inline-size: initial;
+    }
+
+    .nav a {
+        color: var(--white);
+    }
+
+    .menuButton {
+        display: none;
+    }
+}

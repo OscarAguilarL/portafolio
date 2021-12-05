@@ -1,9 +1,9 @@
-import React from 'react'
+import { Header } from './components/Header/Header'
 
 export const PortafolioApp = () => {
     return (
-        <div>
-            <h1>Hola mundo!</h1>
-        </div>
+        <>
+            <Header />
+        </>
     )
 }
