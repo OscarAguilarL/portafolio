@@ -74,6 +74,7 @@
         opacity: 1;
         position: static;
         inline-size: initial;
+        box-shadow: none;
     }
 
     .nav a {
