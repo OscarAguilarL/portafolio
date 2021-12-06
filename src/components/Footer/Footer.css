@@ -1,0 +1,71 @@
+.contacto h5 {
+    font: var(--headline1-mobile);
+    color: var(--white);
+}
+
+.contacto a {
+    font: var(--headline4);
+    text-decoration: none;
+    color: #ef4565;
+}
+
+footer {
+    padding-block-start: 4rem;
+    padding-block-end: 4rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer .copyright{
+    color: var(--white);
+    font: var(--button);
+    font-weight: normal;
+}
+
+.social {
+    inline-size: 100%;
+    display: flex;
+    gap: 1.75rem;
+    justify-content: center;
+}
+
+.buttonSocial {
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+    border-radius: 50%;
+    background-color: var(--white);
+    border: none;
+    cursor: pointer;
+}
+
+.buttonSocial i {
+    font-size: 1.25rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .contacto {
+        padding-inline-end: 6rem;
+        padding-inline-start: 6rem;
+    }
+
+    .contacto h5 {
+        font: var(--headline1);
+    }
+
+    .contacto a {
+        font: var(--headline1-mobile);
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .social {
+        inline-size: 50%    ;
+        justify-content: flex-end;
+    }
+}

@@ -13,14 +13,14 @@ export const Header = () => {
     }
 
     return (
-        <header className={styles.header}>
+        <header className={styles.header} id="about">
             <a href="/">
                 <h1>Oscar Aguilar</h1>
             </a>
 
             <nav className={`${styles.nav} ${menuOpen && styles['is-open']}`}>
+                <a onClick={handleNavClick} href="#about">Sobre mí</a>
                 <a onClick={handleNavClick} href="#proyectos">Proyectos</a>
-                <a onClick={handleNavClick} href="#habilidades">Habilidades</a>
                 <a onClick={handleNavClick} href="#contacto">Contacto</a>
             </nav>
             <div className={styles.menuButton} onClick={handleMenuClick}>

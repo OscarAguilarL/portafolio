@@ -4,7 +4,8 @@
     --black: #141414;
     --grey: #9ba4ad;
     --baseFont: 'Maven Pro', sans-serif;
-    --headline1: 700 5rem / normal var(--baseFont);
+    --headline1: 700 4rem / normal var(--baseFont);
+    --headline1-mobile: 700 2rem / normal var(--baseFont);
     --headline2: 700 1.75rem / normal var(--baseFont);
     --headline3: 700 1.625rem/3rem var(--baseFont);
     --headline4: 700 1.5rem / normal var(--baseFont);
