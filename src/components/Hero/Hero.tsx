@@ -5,7 +5,7 @@ import user from '../../assets/images/user.png';
 
 export const Hero = () => {
     return (
-        <div className={styles.hero}>
+        <div className={`${styles.hero} animate__animated animate__zoomIn`}>
             <div className={styles.heroImage}>
                 <img
                     src={user}

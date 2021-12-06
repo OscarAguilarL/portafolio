@@ -1,3 +1,6 @@
+import { useEffect, useRef } from 'react';
+import scrollreveal from 'scrollreveal';
+
 import { ProjectInterfaceProps } from '../../interface/ProjectInterfaceProps';
 import { Button } from '../Button/Button';
 
@@ -10,8 +13,20 @@ export const ProjectCard = ({
     codeLink,
     websiteLink,
 }: ProjectInterfaceProps) => {
+    const ref = useRef<any>(null);
+
+    useEffect(() => {
+        const sr = scrollreveal({
+            origin: 'top',
+            distance: '80px',
+            duration: 2000,
+            reset: false,
+        });
+        sr.reveal(ref.current);
+    }, []);
+
     return (
-        <div className={styles.projectCard}>
+        <div className={styles.projectCard} ref={ref}>
             <div className={styles.projectImage}>
                 <img src={image} alt={title} />
             </div>
