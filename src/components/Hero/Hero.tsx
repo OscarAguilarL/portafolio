@@ -26,16 +26,15 @@ export const Hero = () => {
                     sin problema alguno.
                 </p>
                 <p>
-                    Llevo 1 año entero profundizando mis habilidades de
+                    Llevo 1 año profundizando mis habilidades de
                     profesionales creando proyectos personales, en los cuales he
-                    reforzado diferentes temas. Siempre me ha gustado estar a la
+                    reforzado diferentes temas y herramientas. Siempre me ha gustado estar a la
                     vanguardia en la tecnología, por lo que diariamente me estoy
                     informando sobre las nuevas noticias del mundo Tech.
                 </p>
                 <Button
                     text="Descargar currículum"
                     type="primary"
-                    // TODO: Agregar url del CV
                     href="../../assets/CV-Oscar_Aguilar.pdf"
                     download={true}
                 />
