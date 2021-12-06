@@ -32,18 +32,38 @@ export const Footer = () => {
                     &copy; Copyright {year} | Oscar Aguilar
                 </p>
                 <div className="social">
-                    <button className="buttonSocial">
+                    <a
+                        href="https://www.linkedin.com/in/oscar-agl/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="buttonSocial"
+                    >
                         <i className="fab fa-linkedin"></i>
-                    </button>
-                    <button className="buttonSocial">
+                    </a>
+                    <a
+                        href="https://twitter.com/oscar_aguilaar"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="buttonSocial"
+                    >
                         <i className="fab fa-twitter-square" />
-                    </button>
-                    <button className="buttonSocial">
+                    </a>
+                    <a
+                        href="https://github.com/OscarAguilarL"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="buttonSocial"
+                    >
                         <i className="fab fa-github-square" />
-                    </button>
-                    <button className="buttonSocial">
+                    </a>
+                    <a
+                        href="https://www.oscar-aguilar.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="buttonSocial"
+                    >
                         <i className="fas fa-globe"></i>
-                    </button>
+                    </a>
                 </div>
             </footer>
         </div>
