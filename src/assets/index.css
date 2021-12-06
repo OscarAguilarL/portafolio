@@ -14,9 +14,11 @@
     --body2-regular: 400 1rem / normal var(--baseFont);
 }
 
+html,
 body {
     font-family: var(--baseFont);
     margin: 0;
     padding: 0;
     background-color: var(--black);
+    scroll-behavior: smooth;
 }

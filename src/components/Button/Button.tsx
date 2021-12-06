@@ -4,7 +4,7 @@ interface ButtonProps {
     text: string;
     type: 'primary' | 'secondary';
     href: string;
-    download: boolean;
+    download?: boolean;
 }
 
 export const Button = ({ text, type, href, download = false }: ButtonProps) => {
@@ -13,6 +13,8 @@ export const Button = ({ text, type, href, download = false }: ButtonProps) => {
             href={href}
             className={`${styles.button} ${styles[type]}`}
             download={download}
+            target="_blank"
+            rel="noreferrer"
         >
             {text}
         </a>

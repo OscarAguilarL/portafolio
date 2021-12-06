@@ -1,0 +1,20 @@
+.card {
+    background: linear-gradient(211.85deg, #fd6585 -42.56%, #0d25b9 80.81%);
+    background-attachment: fixed;
+    padding-block-start: 4rem;
+    padding-block-end: 4rem;
+}
+
+.card h2 {
+    padding-block-end: 2rem;
+    color: var(--white);
+    font: var(--headline2);
+}
+
+.ProjectGrid {
+    min-block-size: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: space-between;
+}

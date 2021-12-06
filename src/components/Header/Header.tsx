@@ -8,6 +8,10 @@ export const Header = () => {
         setMenuOpen(!menuOpen);
     }
 
+    function handleNavClick() {
+        setMenuOpen(false);
+    }
+
     return (
         <header className={styles.header}>
             <a href="/">
@@ -15,9 +19,9 @@ export const Header = () => {
             </a>
 
             <nav className={`${styles.nav} ${menuOpen && styles['is-open']}`}>
-                <a onClick={handleMenuClick} href="#proyectos">Proyectos</a>
-                <a onClick={handleMenuClick} href="#habilidades">Habilidades</a>
-                <a onClick={handleMenuClick} href="#contacto">Contacto</a>
+                <a onClick={handleNavClick} href="#proyectos">Proyectos</a>
+                <a onClick={handleNavClick} href="#habilidades">Habilidades</a>
+                <a onClick={handleNavClick} href="#contacto">Contacto</a>
             </nav>
             <div className={styles.menuButton} onClick={handleMenuClick}>
                 <button
