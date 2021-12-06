@@ -22,15 +22,15 @@ export const Hero = () => {
                 </h4>
                 <p>
                     Mi área de conocimiento se centra en el Frontend con
-                    JavaScript y React, pero puedo moverme a cualquier framework
-                    sin problema alguno.
+                    JavaScript y React, pero puedo adaptarme a cualquier
+                    framework sin problema alguno.
                 </p>
                 <p>
-                    Llevo 1 año profundizando mis habilidades de
-                    profesionales creando proyectos personales, en los cuales he
-                    reforzado diferentes temas y herramientas. Siempre me ha gustado estar a la
-                    vanguardia en la tecnología, por lo que diariamente me estoy
-                    informando sobre las nuevas noticias del mundo Tech.
+                    Llevo 1 año profundizando mis habilidades profesionales
+                    creando proyectos personales, en los cuales he reforzado
+                    diferentes temas y herramientas. Siempre me ha gustado estar
+                    a la vanguardia en la tecnología, por lo que diariamente me
+                    estoy informando sobre las nuevas noticias del mundo Tech.
                 </p>
                 <Button
                     text="Descargar currículum"
