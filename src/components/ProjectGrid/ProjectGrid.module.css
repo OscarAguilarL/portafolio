@@ -12,7 +12,6 @@
 }
 
 .ProjectGrid {
-    min-block-size: 100vh;
     display: flex;
     flex-wrap: wrap;
     gap: 4rem;

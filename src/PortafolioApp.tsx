@@ -3,6 +3,7 @@ import { Hero } from './components/Hero/Hero';
 import { ProjectCard } from './components/ProjectCard/ProjectCard';
 import { ProjectGrid } from './components/ProjectGrid/ProjectGrid';
 import { Wrapper } from './components/Wrapper/Wrapper';
+import { projects } from './data/projects';
 
 export const PortafolioApp = () => {
     return (
@@ -13,12 +14,9 @@ export const PortafolioApp = () => {
             </Wrapper>
             <ProjectGrid>
                 <>
-                    <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
+                    {projects.map((project) => (
+                        <ProjectCard {...project} key={project.websiteLink} />
+                    ))}
                 </>
             </ProjectGrid>
         </>
