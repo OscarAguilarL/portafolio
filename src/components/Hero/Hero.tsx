@@ -32,12 +32,14 @@ export const Hero = () => {
                     a la vanguardia en la tecnología, por lo que diariamente me
                     estoy informando sobre las nuevas noticias del mundo Tech.
                 </p>
+                { /* 
                 <Button
                     text="Descargar currículum"
                     type="primary"
                     href="../../assets/CV-Oscar_Aguilar.pdf"
                     download={true}
                 />
+                */ }
             </div>
         </div>
     );
