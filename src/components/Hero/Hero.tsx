@@ -1,5 +1,5 @@
 import styles from './Hero.module.css';
-import { Button } from '../Button/Button';
+// import { Button } from '../Button/Button';
 
 import user from '../../assets/images/user.png';
 
