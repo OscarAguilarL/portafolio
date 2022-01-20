@@ -14,11 +14,9 @@ export const PortafolioApp = () => {
                 <Hero />
             </Wrapper>
             <ProjectGrid>
-                <>
-                    {projects.map((project) => (
-                        <ProjectCard {...project} key={project.websiteLink} />
-                    ))}
-                </>
+                {projects.map((project) => (
+                    <ProjectCard {...project} key={project.websiteLink} />
+                ))}
             </ProjectGrid>
             <Wrapper>
                 <Footer />

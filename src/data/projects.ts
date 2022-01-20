@@ -13,7 +13,7 @@ export const projects: ProjectInterfaceProps[] = [
     {
         title: 'WeatherApp',
         description:
-            "Aplicación del clima hecha con vanilla JS, con la finalidad de reforzar la manipulación del DOM y consumo de Web API's",
+            "Weather application made with vanilla JS, in order to reinforce DOM manipulation and Web API's.",
         codeLink: 'https://github.com/OscarAguilarL/weather-app',
         websiteLink: 'https://weather-app-tau-three.vercel.app/',
         image: weather,
@@ -21,7 +21,7 @@ export const projects: ProjectInterfaceProps[] = [
     {
         title: 'Frontend Calculator',
         description:
-            'Calculadora minimalista con React JS con las que practique mis conocimientos de React, React Hooks, y sobre todo HTML y CSS',
+            'Minimalist calculator with React JS with which I practiced my knowledge of React, React Hooks, and above all HTML and CSS.',
         codeLink: 'https://github.com/OscarAguilarL/frontend-calculator',
         websiteLink: 'https://frontend-calculator.vercel.app/',
         image: calculator,
@@ -29,7 +29,7 @@ export const projects: ProjectInterfaceProps[] = [
     {
         title: 'Block Master',
         description:
-            'Estructura de una plataforma de streaming, construido con React, React Hooks, React Router, HTML y CSS',
+            'Structure of a streaming platform, built with React, React Hooks, React Router, HTML and CSS.',
         codeLink: 'https://github.com/OscarAguilarL/block-master-react',
         websiteLink: 'https://block-master-react.vercel.app/all',
         image: blockMaster,
@@ -37,7 +37,7 @@ export const projects: ProjectInterfaceProps[] = [
     {
         title: 'Skeleton',
         description:
-            'Uno de los escenarios esenciales en una interfaz, aplicando una genial transición entre elementos sin contenido y después pintando toda la información necesaria.',
+            'One of the essential settings in an interface, applying a cool transition between elements without content and then painting all the necessary information.',
         codeLink: 'https://github.com/OscarAguilarL/skeleton',
         websiteLink: 'https://skeleton-chi.vercel.app/',
         image: skeleton,
@@ -45,7 +45,7 @@ export const projects: ProjectInterfaceProps[] = [
     {
         title: 'MERN Calendar',
         description:
-            'Aplicación de calendario usando el stack MERN. Se creó utilizando React Redux, y distintos componentes de React publicados en NPM',
+            'Calendar application using the MERN stack. It was created using React Redux, and different React components published in NPM.',
         codeLink: 'https://github.com/OscarAguilarL/mern-calendar-app',
         websiteLink: 'https://mern-calendar-app.vercel.app/',
         image: calendar,
@@ -53,7 +53,7 @@ export const projects: ProjectInterfaceProps[] = [
     {
         title: 'Countdown App',
         description:
-            'Esta es de las primeras aplicaciones que hice, se usó vanilla Javascript, HTML y CSS.',
+            'This is one of the first applications I made, using vanilla Javascript, HTML and CSS.',
         codeLink: 'https://github.com/OscarAguilarL/countdown',
         websiteLink: 'https://oscaraguilarl.github.io/countdown/',
         image: countdown,

@@ -19,9 +19,9 @@ export const Header = () => {
             </a>
 
             <nav className={`${styles.nav} ${menuOpen && styles['is-open']}`}>
-                <a onClick={handleNavClick} href="#about">Sobre mí</a>
-                <a onClick={handleNavClick} href="#proyectos">Proyectos</a>
-                <a onClick={handleNavClick} href="#contacto">Contacto</a>
+                <a onClick={handleNavClick} href="#about">About me</a>
+                <a onClick={handleNavClick} href="#proyectos">Projects</a>
+                <a onClick={handleNavClick} href="#contacto">Contact</a>
             </nav>
             <div className={styles.menuButton} onClick={handleMenuClick}>
                 <button

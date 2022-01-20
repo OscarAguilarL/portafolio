@@ -22,7 +22,7 @@ export const Footer = () => {
     return (
         <div id="contacto" className="FooterContainer" ref={ref}>
             <div className="contacto">
-                <h5>¿Quieres trabajar conmigo? ¡Hazme ping!</h5>
+                <h5>Do you want to work with me? email me!</h5>
                 <a href="mailto:aguilop.oscar@gmail.com">
                     aguilop.oscar@gmail.com
                 </a>

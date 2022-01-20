@@ -1,5 +1,5 @@
 import styles from './Hero.module.css';
-// import { Button } from '../Button/Button';
+import { Button } from '../Button/Button';
 
 import user from '../../assets/images/user.png';
 
@@ -17,29 +17,26 @@ export const Hero = () => {
 
             <div className={styles.heroDescription}>
                 <h4>
-                    Hola, Soy Oscar Aguilar, Frontend Developer centrado en la
-                    creación de aplicaciones web usando JavaScript.
+                    Hi, I'm Oscar Aguilar, Frontend Developer focused on creating web creating web applications using JavaScript.
                 </h4>
                 <p>
-                    Mi área de conocimiento se centra en el Frontend con
-                    JavaScript y React, pero puedo adaptarme a cualquier
-                    framework sin problema alguno.
+                    My area of expertise is focused on Frontend with
+                    JavaScript and React, but I can adapt to any
+                    framework without any problem.
                 </p>
                 <p>
-                    Llevo 1 año profundizando mis habilidades profesionales
-                    creando proyectos personales, en los cuales he reforzado
-                    diferentes temas y herramientas. Siempre me ha gustado estar
-                    a la vanguardia en la tecnología, por lo que diariamente me
-                    estoy informando sobre las nuevas noticias del mundo Tech.
+                    I have been deepening my professional skills for 1 year
+                    creating personal projects, in which I have reinforced different topics
+                    and tools. I have always liked to be at the
+                    the forefront of technology, so every day I inform my
+                    self about the latest news in the Tech world.
                 </p>
-                { /* 
                 <Button
-                    text="Descargar currículum"
+                    text="Download CV"
                     type="primary"
-                    href="../../assets/CV-Oscar_Aguilar.pdf"
+                    href="https://drive.google.com/file/d/13eZHcvRAtgfjfBJp3oxaRMucPmb7Iyv9/view?usp=sharing"
                     download={true}
                 />
-                */ }
             </div>
         </div>
     );

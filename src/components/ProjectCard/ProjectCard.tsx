@@ -37,12 +37,12 @@ export const ProjectCard = ({
                 <div className={styles.buttonContainer}>
                     <Button
                         href={codeLink}
-                        text="Ver código"
+                        text="Code"
                         type="secondary"
                     />
                     <Button
                         href={websiteLink}
-                        text="Ver proyecto"
+                        text="See live"
                         type="primary"
                     />
                 </div>

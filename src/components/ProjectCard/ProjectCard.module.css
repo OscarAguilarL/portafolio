@@ -41,7 +41,8 @@
 .buttonContainer {
     display: flex;
     inline-size: 100%;
-    justify-content: space-between;
+    gap: 2rem;
+    /* justify-content: space-between; */
 }
 
 @media screen and (min-width: 768px) {
