@@ -34,7 +34,7 @@ export const Hero = () => {
                 <Button
                     text="Download CV"
                     type="primary"
-                    href="https://drive.google.com/file/d/13eZHcvRAtgfjfBJp3oxaRMucPmb7Iyv9/view?usp=sharing"
+                    href="https://drive.google.com/file/d/13o62-m8UdTv9ThIx_ALucDzjQRdQTsP7/view?usp=sharing"
                     download={true}
                 />
             </div>
