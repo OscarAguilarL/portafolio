@@ -5,7 +5,7 @@ import calculator from '../assets/images/project-thumbnail/calculator.png';
 import blockMaster from '../assets/images/project-thumbnail/block-master.jpg';
 import skeleton from '../assets/images/project-thumbnail/skeleton.png';
 import calendar from '../assets/images/project-thumbnail/mern-calendar.png';
-import countdown from '../assets/images/project-thumbnail/countdown.png';
+import pomodoro from '../assets/images/project-thumbnail/podomoro.png';
 
 
 
@@ -51,11 +51,11 @@ export const projects: ProjectInterfaceProps[] = [
         image: calendar,
     },
     {
-        title: 'Countdown App',
+        title: 'Pomodoro Tracker',
         description:
-            'This is one of the first applications I made, using vanilla Javascript, HTML and CSS.',
-        codeLink: 'https://github.com/OscarAguilarL/countdown',
-        websiteLink: 'https://oscaraguilarl.github.io/countdown/',
-        image: countdown,
+            'Pomodoro App with React, Styled Components and Vite',
+        codeLink: 'https://github.com/OscarAguilarL/pomodoro-tracker',
+        websiteLink: 'https://pomodoro-tracker-two.vercel.app/',
+        image: pomodoro,
     },
 ];
