@@ -17,24 +17,18 @@ export const Hero = () => {
 
             <div className={styles.heroDescription}>
                 <h4>
-                    Hi, I'm Oscar Aguilar, Frontend Developer focused on creating web creating web applications using JavaScript.
+                    Hi, I'm Oscar Aguilar, Frontend Developer.
                 </h4>
                 <p>
-                    My area of expertise is focused on Frontend with
-                    JavaScript and React, but I can adapt to any
-                    framework without any problem.
+                    As a Frontend developer, I am focused on scalable and maintainable web applications, following the most common best practice standards, always keeping the user experience as a priority.
                 </p>
                 <p>
-                    I have been deepening my professional skills for 1 year
-                    creating personal projects, in which I have reinforced different topics
-                    and tools. I have always liked to be at the
-                    the forefront of technology, so every day I inform my
-                    self about the latest news in the Tech world.
+                    Experience in building scalable and maintainable software systems, using agile methodologies and modern software engineering practices. Strong problem solving skills and the ability to work collaboratively with multi-disciplinary teams. Passionate learner who is constantly looking to improve and keep up with the latest industry trends, specifically in improving my skills with best practices and standards in code architecture and design patterns.
                 </p>
                 <Button
                     text="Download CV"
                     type="primary"
-                    href="https://drive.google.com/file/d/13o62-m8UdTv9ThIx_ALucDzjQRdQTsP7/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1q9hlqfr__2SA1d9cHrmjlFdcc9qONptE/view?usp=sharing"
                     download={true}
                 />
             </div>
